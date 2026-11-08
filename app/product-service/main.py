@@ -16,14 +16,14 @@ import socket
 from fastapi import FastAPI, HTTPException
 
 # Change this, push, and watch the new version roll out through the pipeline.
-APP_VERSION = "1.1.0"
+APP_VERSION = "1.2.0"
 
 CATALOG_FILE = os.getenv("CATALOG_FILE", "/config/products.json")
 
 # Used only when the ConfigMap is not mounted (for example on your laptop).
 DEFAULT_CATALOG = [
-    {"id": 1, "name": "GitOps T-Shirt", "price": 499},
-    {"id": 2, "name": "Kubernetes Mug", "price": 299},
+    {"id": 1, "name": "GitOps T-Shirt", "price": 399},
+    {"id": 2, "name": "Kubernetes Mug", "price": 249},
 ]
 
 app = FastAPI(title="QuickCart product-service", version=APP_VERSION)
