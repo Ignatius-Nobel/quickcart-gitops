@@ -14,10 +14,10 @@ metadata:
 data:
   products.json: |
     [
-      {"id": 1, "name": "GitOps T-Shirt", "price": 499},
+      {"id": 1, "name": "GitOps T-Shirt", "price": 399},
       {"id": 2, "name": "Kubernetes Mug", "price": 249},
       {"id": 3, "name": "Argo CD Sticker Pack", "price": 99},
-      {"id": 4, "name": "DevOps Hoodie", "price": 1299}
+      {"id": 4, "name": "DevOps Hoodie", "price": 1099}
     ]
 ---
 apiVersion: apps/v1
