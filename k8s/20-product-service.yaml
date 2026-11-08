@@ -42,7 +42,7 @@ spec:
       containers:
         - name: product-service
           # The CI pipeline updates this tag after every build.
-          image: ignatiusnobel13/quickcart-product-service:af25832e6f774f02dc1abaf8b38ec12f020c7468
+          image: ignatiusnobel13/quickcart-product-service:598465c9c9acad9e38b8c5eb6f7aad2bbb539688
           ports:
             - containerPort: 8000
           env:
